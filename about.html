@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemig</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center">
+                <img src="image/udemig.png" width="72" height="45" alt="">
+                <a class="navbar-brand fs-6 fw-bold p-0 text-white" style="font-size: 20px;" href="#top">&ensp;
+                    Udemig</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex  justify-content-end  ">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/index.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle  " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            JOIN
+                        </a>
+                        <ul class="dropdown-menu bg-dark text-white">
+                            <li><a class="dropdown-item text-uppercase " href="/login.html">Log In</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-uppercase " href="/register.html">Sign Up</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase " href="/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- MAIN_TITLE -->
+    <div class="title py-5">
+        <div class="container-fluid text-center  d-flex flex-column align-items-center py-5">
+            <h1 class="display-4 text-white">Who Are We?</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-warning">Home</a></li>
+                    <li class="breadcrumb-item active text-white " aria-current="page">About Us</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="about py-5" style="border:5px solid red;">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card text-center bg-primary-subtle border-0 ">
+                        <img src="https://www.svgrepo.com/show/240382/teacher.svg" class="card-img-top px-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-5 fw-bolder">Study Online</h5>
+                            <p class="card-text">Developing skills for careers in various major fields including
+                                language</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-center bg-primary-subtle border-0 ">
+                        <img src="https://www.svgrepo.com/show/61264/science.svg" class="card-img-top px-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-5 fw-bolder">Personal Development</h5>
+                            <p class="card-text">Developing skills for careers in various major fields including
+                                language</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-center bg-primary-subtle border-0 ">
+                        <img src="https://www.svgrepo.com/show/493556/remote-work-airplane-male.svg"
+                            class="card-img-top px-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-5 fw-bolder">Free Online Courses</h5>
+                            <p class="card-text">Developing skills for careers in various major fields including
+                                language</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-center bg-primary-subtle border-0 ">
+                        <img src="https://www.svgrepo.com/show/375906/support.svg" class="card-img-top px-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-5 fw-bolder">Lifetime Support</h5>
+                            <p class="card-text">Developing skills for careers in various major fields including
+                                language</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ACCORDION -->
+    <div class="accordion accordion-flush container rounded-5 py-5 mb-5" id="accordionFlushExample">
+        <h1 class="text-center fw-bolder text-success-emphasis mb-4 ">About Courses</h1>
+        <div class="accordion-item my-2 rounded-5 ">
+            <h2 class="accordion-header ">
+                <button class="accordion-button collapsed rounded-5 " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Web Design Courses
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body fs-5 fw-bolder ">From Scratch Development! In this program, kids will learn
+                    algorithms, HTML, CSS, JS, and GITHUB for web technologies. They will have real projects during the
+                    program. After this course, they can develop projects. If they successfully complete the course,
+                    they will have the opportunity to participate in a recommendation programming program. Learning
+                    Outcomes: Structural, Analytical, Logical, Systematic, and Algorithmic Thinking. Solving Complex
+                    Problems and Creating Solutions. Learning 1 Programming Language. Ability to create projects.
+                    <code>
+                        <br>
+                        Sessions: Saturdays and Sundays 19:00-20:30 <br>
+                        Address: With Software Engineer via Zoom. <br>
+                        Certificate: Lifetime.
+                        Course Duration: 6 Months <br>
+                        Goal: Learning Algorithms and Web Technologies with Projects! <br>
+                        Age Range: 10-16 <br>
+                        Programming Tools: Visual Studio Code <br>
+                    </code>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item my-2 rounded-5 ">
+            <h2 class="accordion-header ">
+                <button class="accordion-button collapsed rounded-5 " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Online Programming Courses
+                </button>
+            </h2>
+            <div id="flush-collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body fs-5 fw-bolder ">Whether you are studying software engineering or not,
+                    engineers are always needed in the professional world! Would you like to learn the most used and
+                    most job-creating technologies in the world? Then this team, which is actively working in the
+                    professional world and creating projects for the world, is waiting for you!
+                    <code>
+                        <br>
+                        Training Days: Saturday and Sunday evenings for two hours each! <br>
+                        Requirements: Computer and Internet! <br>
+                        Course Duration: 6 Months <br>
+                        Goal: Learning Algorithms, HTML, CSS, HTML5, CSS3, JS, B, TS, Jenkins, CV, JIRA, Git, SCSS
+                        Trello, React, React-Redux, Redux-Toolkit, Unit Testing, Projects, Publishing, MVC, MVVM, API,
+                        and more... <br>
+                        Age Range: (17+ years) <br>
+                        Tools Used: VS Code, Trello, and More! <br>
+                    </code>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item my-2 rounded-5 ">
+            <h2 class="accordion-header ">
+                <button class="accordion-button collapsed rounded-5 " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne">
+                    App Development
+                </button>
+            </h2>
+            <div id="flush-collapseOne3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body fs-5 fw-bolder ">In this course, you will learn to develop mobile
+                    applications with real projects! You will have the opportunity to learn one of the main platforms
+                    for developing applications! At the end of this course, you will be able to develop mobile
+                    applications with Flutter! Learning Outcomes: Structure of Flutter, Programming for iOS, Programming
+                    for Android, State Management, and more!
+                    <code>
+                        <br>
+                        Training Days: Saturday and Sunday evenings for two hours each! <br>
+                        Requirements: Computer and Internet! <br>
+                        Course Duration: 6 Months <br>
+                        Goal: To be able to develop mobile applications with Flutter! <br>
+                        Tools Used: VS Code, Flutter! <br>
+                    </code>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Udemig. All rights reserved.</p>
+            <p class="mb-0">Follow us on <a href="#" class="text-light">Facebook</a>, <a href="#"
+                    class="text-light">Twitter</a>, and <a href="#" class="text-light">Instagram</a>.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9er7HE6hVNA3gA5jOWjj3DqVbqH2p0x0OGpFbcWmc7W76W9tR4B" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-nnP66tE+U+P8iZT8xKovlf5Kj4Vhz9WQ4L2ZgRFxxhx6G5he8e56JfL1yUktcVZz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
